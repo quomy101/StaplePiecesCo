@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StaplePiecesCo/static/css/main.e843673f.css",
+    "main.js": "/StaplePiecesCo/static/js/main.37062aae.js",
+    "index.html": "/StaplePiecesCo/index.html",
+    "main.e843673f.css.map": "/StaplePiecesCo/static/css/main.e843673f.css.map",
+    "main.37062aae.js.map": "/StaplePiecesCo/static/js/main.37062aae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e843673f.css",
+    "static/js/main.37062aae.js"
+  ]
+}
