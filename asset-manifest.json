@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/StaplePiecesCo/static/css/main.e843673f.css",
-    "main.js": "/StaplePiecesCo/static/js/main.37062aae.js",
+    "main.css": "/StaplePiecesCo/static/css/main.c080dd8d.css",
+    "main.js": "/StaplePiecesCo/static/js/main.5eb1dedf.js",
+    "static/media/205238011_264158042152765__n.jpg": "/StaplePiecesCo/static/media/205238011_264158042152765_5535642892054935747_n.576da5607a8e9bd32298.jpg",
+    "static/media/258629065___n.jpg": "/StaplePiecesCo/static/media/258629065_1086612715248042_3206452594275461906_n.5208371a3bee227f9a71.jpg",
     "index.html": "/StaplePiecesCo/index.html",
-    "main.e843673f.css.map": "/StaplePiecesCo/static/css/main.e843673f.css.map",
-    "main.37062aae.js.map": "/StaplePiecesCo/static/js/main.37062aae.js.map"
+    "main.c080dd8d.css.map": "/StaplePiecesCo/static/css/main.c080dd8d.css.map",
+    "main.5eb1dedf.js.map": "/StaplePiecesCo/static/js/main.5eb1dedf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e843673f.css",
-    "static/js/main.37062aae.js"
+    "static/css/main.c080dd8d.css",
+    "static/js/main.5eb1dedf.js"
   ]
 }
