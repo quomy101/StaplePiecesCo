@@ -1,0 +1,109 @@
+// large screen view
+.navbar-container {
+  font-family: "Montserrat", sans-serif;
+
+  .header-elements {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    h3 {
+      margin-left: 10rem;
+    }
+    .fa-bars {
+      display: none;
+    }
+
+    align-items: center;
+  }
+  ul {
+    z-index: 0;
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin-right: 10rem;
+    li {
+      margin-left: 2rem;
+      font-size: small;
+    }
+    li:hover {
+      cursor: pointer;
+      border-bottom: black 2px solid;
+      font-weight: bold;
+    }
+  }
+}
+
+// medium screen view
+@media screen and (max-width: "1000px") {
+  .navbar-container {
+    .header-elements {
+      ul {
+        margin-right: 5rem;
+        z-index: 0;
+
+        li {
+          font-size: x-small;
+        }
+      }
+      h3 {
+        margin-left: 5rem;
+      }
+    }
+  }
+}
+
+// mobile screen view
+@media screen and (max-width: "750px") {
+  .None {
+    display: none !important;
+  }
+  .Flex {
+    display: flex !important;
+  }
+
+  .navbar-container {
+    .header-elements {
+      background-color: black;
+      color: white;
+      ul {
+        position: absolute;
+        top: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: calc(100vh - 10vh);
+        margin-top: 3rem;
+        color: rgb(58, 58, 58);
+        background-color: white;
+        z-index: 1;
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+        li {
+          font-size: x-large;
+          margin-bottom: 4rem;
+          margin-left: 0;
+          font-weight: 600;
+          border-bottom: var(--line-color) solid 1px;
+          width: 70%;
+          padding-bottom: 1rem;
+          text-align: center;
+        }
+      }
+
+      h3 {
+        margin-left: 2rem;
+      }
+
+      .fa-bars {
+        display: flex;
+        margin-right: 2rem;
+      }
+      .fa-xmark {
+        display: flex;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
